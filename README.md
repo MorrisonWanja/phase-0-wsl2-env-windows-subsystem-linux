@@ -12,13 +12,16 @@ Ubuntu, so this step is critical to complete before moving ahead.
 
 ### Action Item: Install WSL Features
 
-1. Search for the "Command Prompt" application using the "Start" menu
-2. Select "Run as administrator" from the right side of the search window
-3. Allow the program to make changes to your device and wait for the "Command
+1.Download the WSL Update file by visiting the following webpage in your browser:
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msiLinks to an external site.
+Open the file, follow the prompts, allow the program to make changes to your device, and click "Finish"
+2. Search for the "Command Prompt" application using the "Start" menu
+3. Select "Run as administrator" from the right side of the search window
+4. Allow the program to make changes to your device and wait for the "Command
    Prompt" application to open
-4. Type `wsl --install -d Ubuntu` and press `<Enter>`
-5. The terminal should output "The requested operation is successful."
-6. Restart your computer to complete the installation.
+5. Type `wsl --install -d Ubuntu` and press `<Enter>`
+6. The terminal should output "The requested operation is successful."
+7. Restart your computer to complete the installation.
 
 > **Note:** If you encounter an error message that says "Ubuntu required feature
 > not installed" then try enabling VSM in your BIOS. Follow
